@@ -1,8 +1,8 @@
 Evaluating LegalBench task=consumer_contracts_qa split=test max_examples=ALL
 Loaded 396 examples
 Loading base model…
-Base accuracy: 0.707 (95% CI 0.662-0.752) [280/396] time 0.6 min
+Base accuracy: 0.707 (95% CI 0.662-0.752) [280/396] time 0.5 min
 Loading LoRA model…
-LoRA accuracy: 0.740 (95% CI 0.697-0.783) [293/396] time 0.8 min
-Delta accuracy: +0.033; McNemar chi2=2.087, p=0.1486 (LoRA better on 41, worse on 28)
+LoRA accuracy: 0.745 (95% CI 0.702-0.788) [295/396] time 0.6 min
+Delta accuracy: +0.038; McNemar chi2=2.925, p=0.0872 (LoRA better on 41, worse on 26)
 Done.

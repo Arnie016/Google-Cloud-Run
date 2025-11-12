@@ -1,0 +1,8 @@
+Evaluating LegalBench task=privacy_policy_qa split=test max_examples=ALL
+Loaded 10923 examples
+Loading base model…
+Base accuracy: 0.620 (95% CI 0.611-0.629) [6776/10923] time 6.3 min
+Loading LoRA model…
+LoRA accuracy: 0.534 (95% CI 0.525-0.544) [5837/10923] time 8.6 min
+Delta accuracy: -0.086; McNemar chi2=126.143, p=0.0000 (LoRA better on 3018, worse on 3957)
+Done.

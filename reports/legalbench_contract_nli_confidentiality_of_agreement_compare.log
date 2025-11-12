@@ -1,0 +1,8 @@
+Evaluating LegalBench task=contract_nli_confidentiality_of_agreement split=test max_examples=ALL
+Loaded 82 examples
+Loading base model…
+Base accuracy: 0.683 (95% CI 0.582-0.784) [56/82] time 0.1 min
+Loading LoRA model…
+LoRA accuracy: 0.622 (95% CI 0.517-0.727) [51/82] time 0.1 min
+Delta accuracy: -0.061; McNemar chi2=1.778, p=0.1824 (LoRA better on 2, worse on 7)
+Done.

@@ -50,9 +50,10 @@ curl -s -X POST "https://legal-gemma-817958879077.europe-west4.run.app/v1/legal/
 ## Evaluation
 | Task | Base Acc | LoRA Acc | Δ | Log |
 |------|----------|----------|---|-----|
-| consumer_contracts_qa | 0.707 | 0.740 | +0.033 | `reports/legalbench_consumer_contracts_qa_compare.log` |
-
-Additional tasks to be added after running `eval_gemma3_legalbench.py` with the respective `TASK` value.
+| consumer_contracts_qa | 0.707 | 0.745 | +0.038 | `reports/legalbench_consumer_contracts_qa_compare.log` |
+| contract_nli_confidentiality_of_agreement | 0.683 | 0.622 | -0.061 | `reports/legalbench_contract_nli_confidentiality_of_agreement_compare.log` |
+| privacy_policy_qa | 0.620 | 0.534 | -0.086 | `reports/legalbench_privacy_policy_qa_compare.log` |
+| successor_liability | 0.213 | 0.213 | +0.000 | `reports/legalbench_successor_liability_compare.log` |
 
 ## Demo Plan
 1. Hit the Cloud Run endpoint live (show structured LoRA output)
